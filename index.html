@@ -3,75 +3,83 @@
 <head>
 	<meta charset="utf-8">
 	<title>Styles conference</title>
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/cssreset.css">
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
 </head>
 <body>
-	<header>
-		<button>HOME</button>
-		<BUTTON>
-			<a href="pages/venue.html">VENUE</a>
-		</BUTTON>
-		<button>
-			<a href="pages/speackers.html">SPEACKERS</a>
-		</button>
-		<button>
-			<a href="pages/schedule.html">SCHEDULE</a>
-		</button>
-		<BUTTON>
-			<a href="pages/about.html">ABOUT US </a>
-		</BUTTON>
-		<button>
-			<a href="pages/register.html">REGISTER</a>
-		</button>
-	</header>
-	<section>
-		<h1 class="good">Styles conference</h1>  
-		<h3>August 24&ndash;December26th &mdash; Douala</h3>
-	</section>
-	
-	<div>
+	<div class="container">
+		<header>
+			<span class="marge">
+				<button class="btn btn-alt">HOME</button>
+			</span>
+				<a href="pages/venue.html"class="btn btn-alt">VENUE</a>
+				<a href="pages/speackers.html"class="btn btn-alt">SPEACKERS</a>
+				<a href="pages/schedule.html"class="btn btn-alt">SCHEDULE</a>
+				<a href="pages/about.html"class="btn btn-alt">ABOUT US </a>
+				<a href="pages/register.html" class="btn btn-alt">REGISTER</a>
+		</header>
 		<section>
+			<span>
+			<h1 class="okay">Styles conference</h1> 
+		</span> 
+			<h3>August 24&ndash;December26th &mdash; Douala</h3>
 			<h3>Dedicated of the Craft of the building websites</h3>
-			<p>Every year the brightest web designers and font-ent developers descend on chicago to discuss the latest technologies.join us this August !</p>
+			<p>Every year the brightest web designers and font-ent developers descend on chicago to discuss the latest technologies.join us this August !
+			</p>
 		</section>
-		<section>
-			<h3>
-				<a href="pages/speackers.html"> Speakers</a>
-			</h3>
-			<ul>
-				<li> Mr Kamdjou</li>
-				<li> Mr Akah</li>
-				<li> Mr Aloys</li>
-			</ul>		
-		</section>
-	</div>
-	<section>
-		<h2>what is the conference all about ?</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</section>
-	<section>
-		<h2>what is the conference all about ?</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</section>
 
-	<a href="#top">Go to the top </a>
-	<button>
-		<a href="http://google.com" target="_blank">Go to google</a>
-	</button>
-	<br><br>
-	<footer>
-		<small>&copy; styles conference</small>
-	</footer>
+	   
+		
+	
+
+		<a href="#top">Go to the top </a>
+		<button>
+			<a href="http://google.com" target="_blank">Go to google</a>
+		</button>
+		<br><br>
+		<footer>
+			<small>&copy; styles conference</small>
+		</footer>
+	</div>
+
+
+	<section class="grid">
+		<section class="col-1-3 bg">
+				<h3>
+					<a href="pages/speackers.html"> Speakers</a>
+				</h3>
+				<ul>
+					<li> Mr Kamdjou</li>
+					<li> Mr Akah</li>
+					<li> Mr Aloys</li>
+				</ul>		
+		</section>
+
+		<section class="col-1-3 bg">
+			<h2>Shedule</h2>
+			<p>
+		    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>	
+		</section>
+
+		<section class="col-1-3 bg">
+			<h2>venue</h2>
+			<p>
+		    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+
+	</section>
 </body>
 </html>
 
