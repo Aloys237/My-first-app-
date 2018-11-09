@@ -50,6 +50,12 @@ buttons
 	margin: 0;
 }
 
+.headcolor{
+	background-color: #222288 !important;
+	width: 100%;
+}
+
+
 .btn-alt{
 	border: 1px solid #dfe2e5;
 	padding:10px 30px;
@@ -270,6 +276,7 @@ a{
 	float: right;
 	width: 30%;
 }
+
 
 
 
