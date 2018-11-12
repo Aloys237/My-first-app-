@@ -167,8 +167,8 @@ ul li{
 	display: inline-block;
 	text-transform: uppercase;
 	padding-left: 15px;
-
 }
+
 .text{
 	color: #DAA520;
 	font-size: 25px;
@@ -230,7 +230,7 @@ p a {
 	border-bottom:1px solid #dfe2e5;
 }
 .header{
-	background: #435bd5;
+	background-color: solid #090979;
 }
 .bod{
 	background-color: white;
@@ -289,70 +289,42 @@ a{
 	margin-top: 25px;
 }
 
-
 form{
-	margin: 50px auto;
+	margin-top:  25px;
 }
-fieldset{
-	border-radius: 2px;
-}
-.down{
-	padding: 8px 30px;
-	background: #68c868;
-	color: #fff;
-}
+
 .group{
-	margin-bottom: 9px;
+	margin-bottom: 2px;
 }
 .group label{
 	display: block;
 }
-.group input{
-	width: 100%;
-	padding: 9px;
-	border:2px solid grey;
-	border-radius: 10px;
+input,
+select,
+textarea {
+	border: 1px solid #c6c9cc;
+	border-radius: 5px;
+	margin: 3px 0 10px 0;
+	padding: 5px 30px;
+	color: #888;
+	width: 100%
 }
-.nombre{
-	padding-bottom: 40px;
-	padding-right: 104px;
-
+select{
+	height: 34px;
 }
-.list1{
-	color: red;
-	list-style: 
-
+textarea{
+	height: 78px;
 }
 
-
-
-form{
-	margin: 50px auto;
-}
-fieldset{
-	border-radius: 2px;
-}
-.down{
-	padding: 8px 30px;
+.btn{
+	border: 0;
 	background: #68c868;
-	color: #fff;
+	padding: 11px 30px;
+	width: 50%;
+	font-size: 14px;
 }
-.group{
-	margin-bottom: 9px;
-}
-.group label{
-	display: block;
-}
-.group input{
-	width: 100%;
-	padding: 9px;
-	border:2px solid grey;
-	border-radius: 10px;
-}
-.nombre{
-	padding-bottom: 40px;
-	padding-right: 104px;
-
+.btn:hover{
+	background: #77a198;
 }
 .first{
 	background: #FF8C00;
@@ -360,9 +332,6 @@ fieldset{
 	padding-bottom: -10px;
 	font-size: 10px;
 }
-
-
-
 
 
 
